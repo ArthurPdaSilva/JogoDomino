@@ -7,8 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        boolean fim = false;
-        int pecaEscolhida = 0;
+        int pecaEscolhida;
         Jogo jogo = new Jogo();
         jogo.embaralhar();
         Domino[] pecasDaMao = {jogo.puxarPeca(), jogo.puxarPeca(), jogo.puxarPeca(), jogo.puxarPeca(), jogo.puxarPeca(),jogo.puxarPeca()};
